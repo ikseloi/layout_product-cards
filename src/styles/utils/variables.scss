@@ -1,8 +1,21 @@
-$color-muted: #616070;
-$color-text: #060b35;
+$main-color: #060b35;
+$secondary-color: #616070;
+
+// --
+
 $card-width: 200px;
-$btn-bg: #00acdc;
-$btn-clr: #fff;
-$btn-bg-hover: #fff;
-$btn-clr-hover: #00acdc;
-$btn-brdr-hover: #00acdc;
+$card-brdr-color: #f3f3f3;
+$card-bg-color: #fff;
+
+// --
+
+$btn-text-color: #fff;
+$btn-text-color-hover: #00acdc;
+$btn-bg-color: #00acdc;
+$btn-bg-color-hover: #fff;
+$btn-brdr-color-hover: #00acdc;
+
+// --
+
+$stars-width: 96px;
+$stars-height: 16px;

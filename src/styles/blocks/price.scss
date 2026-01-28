@@ -1,16 +1,14 @@
 .price {
   &__label {
-    font-weight: 400;
     font-size: 12px;
+    font-weight: 400;
     line-height: 18px;
-    vertical-align: bottom;
   }
 
   &__value {
-    font-weight: 700;
     font-size: 16px;
+    font-weight: 700;
     line-height: 18px;
-    vertical-align: bottom;
-    color: $color-text;
+    color: $main-color;
   }
 }
