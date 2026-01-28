@@ -1,4 +1,6 @@
 .stars {
+  width: 96px;
+  height: 16px;
   display: flex;
   padding: 0;
   margin: 0;
@@ -13,7 +15,7 @@
     background-position: center;
   }
 
-  &:not(:first-child) {
+  &__star:not(:first-child) {
     margin-left: 4px;
   }
 

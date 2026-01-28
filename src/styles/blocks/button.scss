@@ -1,15 +1,18 @@
 .button {
   width: 166px;
   height: 40px;
-  background-color: #fff;
-  border: 1px solid #00acdc;
-  color: #00acdc;
+  background-color: $btn-bg;
+  color: $btn-clr;
+  border: none;
   border-radius: 5px;
   padding: 0;
   box-sizing: border-box;
 
+  font-weight: 700;
+
   &:hover {
-    background-color: #00acdc;
-    color: #fff;
+    background-color: $btn-bg-hover;
+    color: $btn-clr-hover;
+    border: 1px solid $btn-brdr-hover;
   }
 }
